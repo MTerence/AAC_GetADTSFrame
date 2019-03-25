@@ -13,27 +13,9 @@
 		AB2EF7C922489E0C0036DAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF7C822489E0C0036DAB5 /* Assets.xcassets */; };
 		AB2EF7CC22489E0C0036DAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF7CA22489E0C0036DAB5 /* LaunchScreen.storyboard */; };
 		AB2EF7CF22489E0C0036DAB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF7CE22489E0C0036DAB5 /* main.m */; };
-		AB2EF7D922489E0C0036DAB5 /* AAC_GetADTSFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF7D822489E0C0036DAB5 /* AAC_GetADTSFrameTests.m */; };
-		AB2EF7E422489E0D0036DAB5 /* AAC_GetADTSFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF7E322489E0D0036DAB5 /* AAC_GetADTSFrameUITests.m */; };
 		AB2EF7F322489E710036DAB5 /* getADTSFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF7F122489E710036DAB5 /* getADTSFrame.cpp */; };
+		AB2EF7F52248A8AA0036DAB5 /* nocturne.aac in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF7F42248A8AA0036DAB5 /* nocturne.aac */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		AB2EF7D522489E0C0036DAB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2EF7B422489E0B0036DAB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB2EF7BB22489E0B0036DAB5;
-			remoteInfo = AAC_GetADTSFrame;
-		};
-		AB2EF7E022489E0D0036DAB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AB2EF7B422489E0B0036DAB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB2EF7BB22489E0B0036DAB5;
-			remoteInfo = AAC_GetADTSFrame;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AB2EF7BC22489E0B0036DAB5 /* AAC_GetADTSFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAC_GetADTSFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,32 +28,13 @@
 		AB2EF7CB22489E0C0036DAB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB2EF7CD22489E0C0036DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2EF7CE22489E0C0036DAB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB2EF7D422489E0C0036DAB5 /* AAC_GetADTSFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAC_GetADTSFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB2EF7D822489E0C0036DAB5 /* AAC_GetADTSFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAC_GetADTSFrameTests.m; sourceTree = "<group>"; };
-		AB2EF7DA22489E0D0036DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB2EF7DF22489E0D0036DAB5 /* AAC_GetADTSFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAC_GetADTSFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB2EF7E322489E0D0036DAB5 /* AAC_GetADTSFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAC_GetADTSFrameUITests.m; sourceTree = "<group>"; };
-		AB2EF7E522489E0D0036DAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2EF7F122489E710036DAB5 /* getADTSFrame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getADTSFrame.cpp; sourceTree = "<group>"; };
 		AB2EF7F222489E710036DAB5 /* getADTSFrame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = getADTSFrame.hpp; sourceTree = "<group>"; };
+		AB2EF7F42248A8AA0036DAB5 /* nocturne.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = nocturne.aac; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB2EF7B922489E0B0036DAB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB2EF7D122489E0C0036DAB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB2EF7DC22489E0D0036DAB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				AB2EF7BE22489E0B0036DAB5 /* AAC_GetADTSFrame */,
-				AB2EF7D722489E0C0036DAB5 /* AAC_GetADTSFrameTests */,
-				AB2EF7E222489E0D0036DAB5 /* AAC_GetADTSFrameUITests */,
 				AB2EF7BD22489E0B0036DAB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				AB2EF7BC22489E0B0036DAB5 /* AAC_GetADTSFrame.app */,
-				AB2EF7D422489E0C0036DAB5 /* AAC_GetADTSFrameTests.xctest */,
-				AB2EF7DF22489E0D0036DAB5 /* AAC_GetADTSFrameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +63,7 @@
 		AB2EF7BE22489E0B0036DAB5 /* AAC_GetADTSFrame */ = {
 			isa = PBXGroup;
 			children = (
+				AB2EF7F42248A8AA0036DAB5 /* nocturne.aac */,
 				AB2EF7BF22489E0B0036DAB5 /* AppDelegate.h */,
 				AB2EF7C022489E0B0036DAB5 /* AppDelegate.m */,
 				AB2EF7C222489E0B0036DAB5 /* ViewController.h */,
@@ -117,24 +77,6 @@
 				AB2EF7CE22489E0C0036DAB5 /* main.m */,
 			);
 			path = AAC_GetADTSFrame;
-			sourceTree = "<group>";
-		};
-		AB2EF7D722489E0C0036DAB5 /* AAC_GetADTSFrameTests */ = {
-			isa = PBXGroup;
-			children = (
-				AB2EF7D822489E0C0036DAB5 /* AAC_GetADTSFrameTests.m */,
-				AB2EF7DA22489E0D0036DAB5 /* Info.plist */,
-			);
-			path = AAC_GetADTSFrameTests;
-			sourceTree = "<group>";
-		};
-		AB2EF7E222489E0D0036DAB5 /* AAC_GetADTSFrameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AB2EF7E322489E0D0036DAB5 /* AAC_GetADTSFrameUITests.m */,
-				AB2EF7E522489E0D0036DAB5 /* Info.plist */,
-			);
-			path = AAC_GetADTSFrameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,42 +99,6 @@
 			productReference = AB2EF7BC22489E0B0036DAB5 /* AAC_GetADTSFrame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AB2EF7D322489E0C0036DAB5 /* AAC_GetADTSFrameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB2EF7EB22489E0D0036DAB5 /* Build configuration list for PBXNativeTarget "AAC_GetADTSFrameTests" */;
-			buildPhases = (
-				AB2EF7D022489E0C0036DAB5 /* Sources */,
-				AB2EF7D122489E0C0036DAB5 /* Frameworks */,
-				AB2EF7D222489E0C0036DAB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB2EF7D622489E0C0036DAB5 /* PBXTargetDependency */,
-			);
-			name = AAC_GetADTSFrameTests;
-			productName = AAC_GetADTSFrameTests;
-			productReference = AB2EF7D422489E0C0036DAB5 /* AAC_GetADTSFrameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AB2EF7DE22489E0D0036DAB5 /* AAC_GetADTSFrameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB2EF7EE22489E0D0036DAB5 /* Build configuration list for PBXNativeTarget "AAC_GetADTSFrameUITests" */;
-			buildPhases = (
-				AB2EF7DB22489E0D0036DAB5 /* Sources */,
-				AB2EF7DC22489E0D0036DAB5 /* Frameworks */,
-				AB2EF7DD22489E0D0036DAB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AB2EF7E122489E0D0036DAB5 /* PBXTargetDependency */,
-			);
-			name = AAC_GetADTSFrameUITests;
-			productName = AAC_GetADTSFrameUITests;
-			productReference = AB2EF7DF22489E0D0036DAB5 /* AAC_GetADTSFrameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,14 +110,6 @@
 				TargetAttributes = {
 					AB2EF7BB22489E0B0036DAB5 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					AB2EF7D322489E0C0036DAB5 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = AB2EF7BB22489E0B0036DAB5;
-					};
-					AB2EF7DE22489E0D0036DAB5 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = AB2EF7BB22489E0B0036DAB5;
 					};
 				};
 			};
@@ -229,8 +127,6 @@
 			projectRoot = "";
 			targets = (
 				AB2EF7BB22489E0B0036DAB5 /* AAC_GetADTSFrame */,
-				AB2EF7D322489E0C0036DAB5 /* AAC_GetADTSFrameTests */,
-				AB2EF7DE22489E0D0036DAB5 /* AAC_GetADTSFrameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,22 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2EF7CC22489E0C0036DAB5 /* LaunchScreen.storyboard in Resources */,
+				AB2EF7F52248A8AA0036DAB5 /* nocturne.aac in Resources */,
 				AB2EF7C922489E0C0036DAB5 /* Assets.xcassets in Resources */,
 				AB2EF7C722489E0B0036DAB5 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB2EF7D222489E0C0036DAB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB2EF7DD22489E0D0036DAB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,36 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB2EF7D022489E0C0036DAB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB2EF7D922489E0C0036DAB5 /* AAC_GetADTSFrameTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB2EF7DB22489E0D0036DAB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB2EF7E422489E0D0036DAB5 /* AAC_GetADTSFrameUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AB2EF7D622489E0C0036DAB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB2EF7BB22489E0B0036DAB5 /* AAC_GetADTSFrame */;
-			targetProxy = AB2EF7D522489E0C0036DAB5 /* PBXContainerItemProxy */;
-		};
-		AB2EF7E122489E0D0036DAB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AB2EF7BB22489E0B0036DAB5 /* AAC_GetADTSFrame */;
-			targetProxy = AB2EF7E022489E0D0036DAB5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB2EF7C522489E0B0036DAB5 /* Main.storyboard */ = {
@@ -442,12 +296,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
 				INFOPLIST_FILE = AAC_GetADTSFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrame";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,84 +313,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8M2L3Y6MA;
 				INFOPLIST_FILE = AAC_GetADTSFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrame";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiayinghudong.xiaoban;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AB2EF7EC22489E0D0036DAB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AAC_GetADTSFrameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAC_GetADTSFrame.app/AAC_GetADTSFrame";
-			};
-			name = Debug;
-		};
-		AB2EF7ED22489E0D0036DAB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AAC_GetADTSFrameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAC_GetADTSFrame.app/AAC_GetADTSFrame";
-			};
-			name = Release;
-		};
-		AB2EF7EF22489E0D0036DAB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AAC_GetADTSFrameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AAC_GetADTSFrame;
-			};
-			name = Debug;
-		};
-		AB2EF7F022489E0D0036DAB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AAC_GetADTSFrameUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Terence.AAC-GetADTSFrameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AAC_GetADTSFrame;
 			};
 			name = Release;
 		};
@@ -556,24 +342,6 @@
 			buildConfigurations = (
 				AB2EF7E922489E0D0036DAB5 /* Debug */,
 				AB2EF7EA22489E0D0036DAB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB2EF7EB22489E0D0036DAB5 /* Build configuration list for PBXNativeTarget "AAC_GetADTSFrameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB2EF7EC22489E0D0036DAB5 /* Debug */,
-				AB2EF7ED22489E0D0036DAB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB2EF7EE22489E0D0036DAB5 /* Build configuration list for PBXNativeTarget "AAC_GetADTSFrameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB2EF7EF22489E0D0036DAB5 /* Debug */,
-				AB2EF7F022489E0D0036DAB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

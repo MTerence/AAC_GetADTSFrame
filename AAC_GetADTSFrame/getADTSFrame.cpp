@@ -7,3 +7,5 @@
 //
 
 #include "getADTSFrame.hpp"
+
+int simplest_aac_parser(char *url);
