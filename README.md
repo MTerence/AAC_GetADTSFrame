@@ -34,8 +34,10 @@ AAC原始码流（又称为裸流）是由一个一个的ADTS Frame 组成的，
 
 其中 每个ADTSframe之间y通过syncword（同步字）进行分割。同步字为0xFFF（二进制“111111111111”）。AAC码流解析的步骤就是首先从码流中搜索0x0FFF，分离出ADTS frame，然后再分析ADTS的首部各个字段，这个小Demo即实现了上述的两个步骤
 
-int simplest_aac_parser(char *url)
-{
+
+# 代码
+
+int simplest_aac_parser(char *url){
     int data_size = 0;
     int size      = 0;
     int cnt       = 0;
@@ -114,7 +116,7 @@ int simplest_aac_parser(char *url)
     free(aacframe);
     
     return 0;
-}
+    }
 
 
 
